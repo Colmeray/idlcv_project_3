@@ -1,0 +1,63 @@
+{
+  "ph2": {
+    "n_labelled": 200,
+    "split_sizes": {
+      "train": 140,
+      "val": 30,
+      "test": 30
+    },
+    "resolutions": {
+      "767x576": 94,
+      "768x576": 31,
+      "765x573": 12,
+      "764x575": 12,
+      "764x576": 12,
+      "765x574": 5,
+      "765x575": 5,
+      "766x576": 4,
+      "764x572": 4,
+      "765x572": 3,
+      "766x575": 2,
+      "764x574": 2,
+      "767x575": 2,
+      "763x575": 2,
+      "769x577": 1,
+      "763x553": 1,
+      "766x572": 1,
+      "761x574": 1,
+      "769x575": 1,
+      "761x571": 1,
+      "762x572": 1,
+      "761x570": 1,
+      "768x577": 1,
+      "768x574": 1
+    },
+    "foreground_fraction_mean": 0.32244467513085723,
+    "foreground_fraction_std": 0.23366542695912523,
+    "foreground_fraction_per_split": {
+      "train": 0.3235893262221692,
+      "val": 0.35291804441453223,
+      "test": 0.2866296007543932
+    }
+  },
+  "drive": {
+    "n_labelled": 20,
+    "split_sizes": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "resolutions": {
+      "565x584": 20
+    },
+    "foreground_fraction_mean": 0.08631576554733908,
+    "foreground_fraction_std": 0.012685888173683041,
+    "foreground_fraction_per_split": {
+      "train": 0.08576472472853851,
+      "val": 0.0836384208186851,
+      "test": 0.09156463409706228
+    },
+    "official_test_without_labels": 20,
+    "foreground_fraction_in_fov_mean": 0.125391016139683
+  }
+}

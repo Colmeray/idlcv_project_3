@@ -1,17 +1,22 @@
 [project]
 name = "idlcv-project-3"
 version = "0.1.0"
-description = "Add your description here"
+description = "DTU 02516 project 3: segmentation of PH2 and DRIVE (full and point supervision)"
 readme = "README.md"
 authors = [
     { name = "erenchaglarr", email = "s245735@dtu.dk" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "pillow>=11.3.0",
+    "scipy>=1.13.1",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+]
 
-[project.scripts]
-idlcv-project-3 = "idlcv_project_3:main"
-
-[build-system]
-requires = ["uv_build>=0.12.23,<0.13.0"]
-build-backend = "uv_build"
+# Koden køres som scripts fra src/ (se README), så projektet skal ikke bygges som pakke.
+[tool.uv]
+package = false
