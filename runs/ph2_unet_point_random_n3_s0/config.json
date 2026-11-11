@@ -1,0 +1,23 @@
+{
+  "command": "train",
+  "dataset": "ph2",
+  "model": "unet",
+  "base_channels": 32,
+  "depth": 4,
+  "loss": "point",
+  "image_size": 256,
+  "crop_size": 0,
+  "repeat": 1,
+  "batch_size": 8,
+  "eval_batch_size": 4,
+  "epochs": 60,
+  "lr": 0.001,
+  "seed": 0,
+  "num_workers": 4,
+  "no_augment": false,
+  "no_fov": false,
+  "n_clicks": 3,
+  "click_strategy": "random",
+  "name": null,
+  "pos_weight": null
+}
